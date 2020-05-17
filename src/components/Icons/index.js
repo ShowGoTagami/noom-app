@@ -1,0 +1,11 @@
+export { default as LinkIcon } from '@material-ui/icons/Link';
+export { default as AccountCircle } from '@material-ui/icons/AccountCircle';
+export { default as CheckCircleOutlineIcon } from '@material-ui/icons/CheckCircleOutline';
+export { default as DeleteIcon } from '@material-ui/icons/Delete';
+export { default as CloseIcon } from '@material-ui/icons/Close';
+export { default as ContactSupportIcon } from '@material-ui/icons/ContactSupport';
+export { default as ChevronRightIcon } from '@material-ui/icons/ChevronRight';
+export { default as ForumIcon } from '@material-ui/icons/Forum';
+export { default as CachedIcon } from '@material-ui/icons/Cached';
+export { default as ShareIcon } from '@material-ui/icons/Share';
+export { default as PersonAddIcon } from '@material-ui/icons/PersonAdd';
