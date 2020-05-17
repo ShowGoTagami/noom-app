@@ -4,7 +4,6 @@ import {
   Switch,
   Route,
   Link,
-  useParams,
   useHistory,
   useRouteMatch,
   useLocation,
@@ -91,15 +90,6 @@ export const App = () => {
   const moveToOwnerPage = (roomUuid, ownerId) => {
     history.push(`/rooms/${roomUuid}/owner/${ownerId}`)
   }
-
-  const ShowRoomId = ({ originalProp }) => {
-    const { uuidHash } = useParams();
-    return (
-      <div>
-        <p>{originalProp} {uuidHash}だよ</p>
-      </div>
-    );
-  };
 
   const updateGlobalLoaderModalState = (isOpen) => {
     setState({ ...state, isOpenGlobalLoader: isOpen })

@@ -7,7 +7,7 @@ export const Header = ({
 }) => {
   const classes = useStyles();
   return (
-    <AppBar position="static" className={classes.whiteBackground}>
+    <AppBar position="static" color="trasparent" className={classes.whiteBackground}>
       <Toolbar>
         <div className={classes.headerContainer}>
           {children}

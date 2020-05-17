@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from 'react';
+import React, { Fragment, useState } from 'react';
 import { db } from '../Firebase';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -9,21 +9,15 @@ import { ConversionButton } from '../components/Buttons';
 import { Typography } from '../components/Typography';
 import {
   ContactSupportIcon,
-  ChevronRightIcon,
   ForumIcon,
-  CachedIcon,
 } from '../components/Icons';
 import {
   List,
   ListItem,
   ListItemText,
-  ListItemSecondaryAction,
   ListItemIcon,
 } from '../components/List';
-import { Snackbar, MuiAlert } from '../components/Snackbar';
 import { ConversionWrapper } from '../components/shared';
-import { Box } from '../components/Layouts';
-import { Select, MenuItem } from '../components/Select';
 
 // constants
 import { MESSAGE_TYPE, MAX_MESSAGE_BODY_COUNT } from '../constants';
