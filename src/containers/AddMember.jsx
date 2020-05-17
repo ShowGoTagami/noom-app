@@ -39,7 +39,7 @@ export const AddMember = ({
   setMember,
 }) => {
   const MAX_MEMBER_COUNT = 10;
-  const roomUrl = `https://noom-app.org/rooms/${match.params.uuidHash}`;
+  const roomUrl = `https://noom-app.web.app/rooms/${match.params.uuidHash}`;
   const initialState = {
     isOpenTutorialDialog: true,
     isOpenAddMemberForm: false,

@@ -38,7 +38,6 @@ import { RANDOM_FIRST_MESSAGE } from './constants';
 import { Dialog, DialogTitle, DialogContent, DialogActions } from './components/Dialog';
 
 export const App = () => {
-  console.log('レンダリング！')
   const initialState = {
     isOpenGlobalLoader: false,
     isOpenDeleteRoomDialog: false,
