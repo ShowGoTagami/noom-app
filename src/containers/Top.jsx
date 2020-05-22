@@ -12,7 +12,7 @@ import { Typography } from '../components/Typography';
 import { CoverImage } from '../components/Images';
 
 // images
-import { TopServiceImage } from '../images';
+import { TopServiceImage, HowToUse } from '../images';
 
 export const Top = ({
   classes,
@@ -66,6 +66,9 @@ export const Top = ({
           >
             作成済みの部屋に入る
           </Typography>
+        </Box>
+        <Box width="100%">
+          <img src={HowToUse} className={classes.fitWidth}/>
         </Box>
       </Box>
     </Fragment>
