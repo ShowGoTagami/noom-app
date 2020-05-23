@@ -21,4 +21,8 @@ $ npm run test-watch firestore.rules.test.js
 
 you can test result editing test code.
 
-
+## Build and Deploy
+```
+$ npm run build
+$ firebase deploy
+```
