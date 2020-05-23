@@ -1,0 +1,41 @@
+[debug] [2020-05-23T08:47:32.617Z] ----------------------------------------------------------------------
+[debug] [2020-05-23T08:47:32.619Z] Command:       /usr/local/bin/node /usr/local/bin/firebase emulators:exec --only firestore ./firestore.rules.test.js
+[debug] [2020-05-23T08:47:32.619Z] CLI Version:   8.2.0
+[debug] [2020-05-23T08:47:32.619Z] Platform:      darwin
+[debug] [2020-05-23T08:47:32.619Z] Node Version:  v12.14.1
+[debug] [2020-05-23T08:47:32.624Z] Time:          Sat May 23 2020 17:47:32 GMT+0900 (GMT+09:00)
+[debug] [2020-05-23T08:47:32.624Z] ----------------------------------------------------------------------
+[debug] [2020-05-23T08:47:32.624Z] 
+[debug] [2020-05-23T08:47:32.631Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-05-23T08:47:32.631Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: firestore
+[warn] ⚠  emulators: It seems that you are running multiple instances of the emulator suite for project noom-app. This may result in unexpected behavior.
+[debug] [2020-05-23T08:47:32.679Z] [hub] writing locator at /var/folders/63/y48d2fb101b8g5tnmt89xps80000gn/T/hub-noom-app.json
+[info] ✔  hub: emulator hub started at http://localhost:4400
+[debug] [2020-05-23T08:47:32.688Z] Ignoring unsupported arg: projectId
+[debug] [2020-05-23T08:47:32.688Z] Ignoring unsupported arg: auto_download
+[debug] [2020-05-23T08:47:32.688Z] Starting firestore emulator with command {"binary":"java","args":["-Duser.language=en","-jar","/Users/taueshougo/.cache/firebase/emulators/cloud-firestore-emulator-v1.11.3.jar","--host","localhost","--port",58080,"--rules","/Users/taueshougo/Documents/Development/noom-app/firestore.rules"],"optionalArgs":["port","webchannel_port","host","rules","functions_emulator","seed_from_export"],"joinArgs":false}
+[info] i  firestore: firestore emulator logging to firestore-debug.log
+[debug] [2020-05-23T08:47:33.878Z] API endpoint: http://
+[debug] [2020-05-23T08:47:33.878Z] localhost:58080
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:58080
+
+Dev App Server is now running.
+
+
+[info] ✔  firestore: firestore emulator started at http://localhost:58080
+[info] i  firestore: For testing set FIRESTORE_EMULATOR_HOST=localhost:58080
+[info] i  Running script: ./firestore.rules.test.js
+[debug] [2020-05-23T08:47:33.979Z] Running ./firestore.rules.test.js with environment {"TERM_SESSION_ID":"w0t0p2:50E6E05F-C286-48CB-BFC1-4D86C78EED50","SSH_AUTH_SOCK":"/private/tmp/com.apple.launchd.cjQuUpyAkL/Listeners","LC_TERMINAL_VERSION":"3.3.7","COLORFGBG":"15;0","ITERM_PROFILE":"Default","XPC_FLAGS":"0x0","LANG":"ja_JP.UTF-8","PWD":"/Users/taueshougo/Documents/Development/noom-app","SHELL":"/bin/zsh","SECURITYSESSIONID":"186a6","TERM_PROGRAM_VERSION":"3.3.7","TERM_PROGRAM":"iTerm.app","PATH":"/Users/taueshougo/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/taueshougo/Documents/Development/flutter/bin","LC_TERMINAL":"iTerm2","COLORTERM":"truecolor","COMMAND_MODE":"unix2003","TERM":"xterm-256color","HOME":"/Users/taueshougo","TMPDIR":"/var/folders/63/y48d2fb101b8g5tnmt89xps80000gn/T/","USER":"taueshougo","XPC_SERVICE_NAME":"0","LOGNAME":"taueshougo","LaunchInstanceID":"420D9B03-2748-4F5D-A69C-857A3C78C020","__CF_USER_TEXT_ENCODING":"0x1F5:0x1:0xE","ITERM_SESSION_ID":"w0t0p2:50E6E05F-C286-48CB-BFC1-4D86C78EED50","SHLVL":"1","OLDPWD":"/Users/taueshougo/Documents/Development","ZSH":"/Users/taueshougo/.oh-my-zsh","PAGER":"less","LESS":"-R","LSCOLORS":"Gxfxcxdxbxegedabagacad","_":"/usr/local/bin/firebase","IS_FIREBASE_CLI":"true","GCLOUD_PROJECT":"noom-app","FIRESTORE_EMULATOR_HOST":"localhost:58080","FIREBASE_FIRESTORE_EMULATOR_ADDRESS":"localhost:58080","FIREBASE_EMULATOR_HUB":"localhost:4400"}
+[warn] ⚠  Script exited unsuccessfully (code 126)
+[info] i  emulators: Shutting down emulators.
+[info] i  hub: Stopping emulator hub
+[info] i  firestore: Stopping firestore emulator
+[debug] [2020-05-23T08:47:34.494Z] *** shutting down gRPC server since JVM is shutting down
+
+[debug] [2020-05-23T08:47:34.498Z] *** server shut down
+
+[error] 
+[error] Error: Script "./firestore.rules.test.js" exited with code 126
